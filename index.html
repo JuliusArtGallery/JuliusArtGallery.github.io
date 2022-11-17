@@ -6,20 +6,30 @@
 	<title>J's Portfolio</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab&display=swap" rel="stylesheet">
 	<link href="JPortHome.css" rel="stylesheet">
+	<link id="currentStyle" rel="stylesheet" href="main.css">
+	<script src="globalVar.js" type="text/JavaScript"></script>
 </head>
 
 <nav>
-	<a class = "navigation" href = "index.html">Home</a>
-	<a class = "navigation" href = "Biography.html">Meet the Artist</a>
-	<a class = "navigation" href = "ArtGallery.html">Art Gallery</a>
-	<a class = "navigation" href = "ArtTimeline.html">Art Timeline</a>
-	<a class = "navigation" href = "CollectionLibrary.html">Art Collection Library</a>
-	<a class = "navigation" href = "OtherInfo.html">Other Information</a>
+    <a class = "navigation" href = "index.html">Home</a>
+    <a class = "navigation" href = "Biography.html">Meet the Artist</a>
+    <a class = "navigation" href = "ArtGallery.html">Art Gallery</a>
+    <a class = "navigation" href = "OtherInfo.html">Other Information</a>
 </nav>
 
 <body>
-	<img src = "images/Landingplaceholder.PNG" alt = "Landing Page Graphic" width = 100% height = 650em />
-	<p> ENTER JULIUS QUOTE HERE </p>
+	<img id = "landingIMG" src = "images/julius/julius_evolution.jpg" alt = "Landing Page Graphic" width = 80% height = 650em />
+	<p class = "homeText"> "This is how I am in real life. This is just an evolution."</p> 
+	<p class = "homeText">- Julius Marcus Amendolia</p>
 </body>
+
+<footer>
+	<img id = "logo" src = "images/JulesLogo.jpg" alt = "Logo with artist's monogram (initials)" width = 9% height = 9%/>
+	<p id = "copyright"><nobr>Copyright © 2022, Aggie Park and Caleb Ochsner. Website maintained by Aggie Park and Caleb Ochsner.</nobr></p> 
+</footer>
+
+<button id="btn">Change Style</button>
+
+<script src="button.js" type="text/JavaScript"></script>
 
 </html>
