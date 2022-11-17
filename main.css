@@ -82,7 +82,7 @@ footer>img {
     height: 50%;
     width: 50%;
     border: 30px;
-    border: rgb(85, 25, 181);
+    border-color: rgb(85, 25, 181);
     border-style: dashed;
     border-width: 10px;
 }
