@@ -1,0 +1,195 @@
+nav{
+	text-align: center;
+	background-color: #8B4000;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-bottom: 1em;
+}
+
+.navigation{
+	color: #FAD5A5;
+}
+
+.navigation:link{
+	color: #FAD5A5;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-decoration:none;
+	/*color: #FFF5EE;*/	
+}
+
+.navigation:hover{
+	color: black;
+	border: solid;
+}
+
+.navigation:visited{
+	text-decoration: underline;
+}
+
+#landingIMG{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #F88379;
+}
+
+body, footer {
+	background-color: #FAD5A5;
+}
+
+.homeText{
+	font-family: "Papyrus";
+	font-style: italic;
+	font-weight: bold;
+	text-align: center;
+	color: #8B4000;
+	font-size: 30px;
+	text-shadow: 4px 4px 10px #F88379;
+	
+}
+
+#logo{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#copyright{
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	color: #8B4000;
+	padding-top: 1em;
+}
+
+#btn{
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	padding: 20px;
+	display: block;
+	background-color: #8B4000;
+	color: #FAD5A5;
+	border: none;
+}
+
+#btn:hover{
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1em;
+	padding: 20px;
+	display: block;
+	background-color: black;
+	color: #FAD5A5;
+	border: none;
+}
+
+#bioHeading{
+	font-size: 40px;
+	text-align: center;
+	font-family: "Lucida Handwriting";
+	color: #8B4000;
+}
+
+.bioInfo{
+	text-align: center;
+	font-family: "Garamond";
+	font-weight: bold;
+	font-size: 20px;
+	color: #B87333;
+}
+
+span{
+	text-align: center;
+}
+
+table{
+	width: 75%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #E3735E;
+	width: 70%;
+	margin-bottom: 2em;
+}
+
+caption{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: "Lucida Handwriting";
+}
+
+th{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+td {
+    text-align: center;
+	border: 1px solid #E3735E;
+	width:25%;
+	color: #8B4000;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+td>img {
+	padding-top: 1em;
+	padding-bottom: 1em;
+    width: 30%;
+    height: 30%;
+}
+
+#interests{
+	font-size: 45px;
+	font-weight: bold;
+	color: #8B4000;
+	font-family: "Georgia";
+	font-weight: bold;
+}
+
+.JInterests{
+	font-size: 17px;
+	color: black;
+	font-family: "Georgia";
+}
+
+.InterestSubHead{
+	color: #E3735E;
+	font-size: 35px;
+	font-family: "Georgia";
+	font-weight: bold;
+	font-style: italic;
+}
+
+li{
+	font-family: "Georgia";
+	font-size: 17px;
+	color: black;
+}
+
+#Youtube, #AmongUs:link{
+	color: #8B4000;
+	text-decoration: underline;
+}
+
+#Youtube, #AmongUs:visited{
+	color: black;
+	text-decoration: underline;
+}
+
+#Youtube, #AmongUs:hover{
+	color: black;
+	border: solid;
+}
+
+#Youtube, #AmongUs:active{
+	color: white;
+}

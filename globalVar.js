@@ -1,0 +1,1 @@
+document.write('<link id="currentStyle" rel="stylesheet" href="'+ btn.style +'.css"');
