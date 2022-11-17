@@ -186,6 +186,10 @@ ul li {
     list-style: square;
 }
 
+ol, ul {
+    text-align: center;
+}
+
 .JInterests>a {
     text-decoration: none;
     color: whitesmoke;
