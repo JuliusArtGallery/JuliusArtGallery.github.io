@@ -1,17 +1,221 @@
+/* Global */
 html {
-    background-color: green;
+    color: azure;
+    background-color: black;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
 
+nav {
+    display: block;
+    text-align: left;
+    margin: 0px;
+    padding: 10px 15px 50px 15px;
+    width: 150px;
+    position: fixed;
+    height: 20%;
+}
+
+.navigation {
+    display: block;
+    text-decoration: none;
+    color: azure;
+    height: auto;
+    width: 150px;
+    font-size: large;
+    margin-bottom: 10px;
+}
+
+.navigation:hover {
+    color: green;
+    border: 10px;
+    border-bottom: solid green;
+}
+
+body {
+    margin: auto;
+}
+
+h1 {
+    display: block;
+    margin: 0px 200px auto 200px;
+    padding-top: 20px;
+    color: #5da66a;
+}
+
+footer>img {
+    padding: 0px;
+}
+
+#logo {
+    border: 10px;
+    border-color: whitesmoke;
+    border-style: groove;
+}
+
+#copyright {
+    margin: 20px;
+    font-size: x-small;
+}
+
+#btn {
+    color: azure;
+    background-color: green;
+    border: 8px groove whitesmoke;
+    border-radius: 100%;
+    border-color: rgb(6, 65, 6);
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 0px 15px 15px;
+    font-weight: bolder;
+}
+
+#btn:hover {
+    background-color: rgb(5, 92, 5);
+}
+
+/* Index Page */
+#landingIMG {
+    margin: 20px;
+    padding: 20px;
+    height: 50%;
+    width: 50%;
+    border: 30px;
+    border: azure;
+    border-style: dashed;
+    border-width: 10px;
+}
+
+.homeText {
+    margin: 20px;
+}
+
+
+
+/* Biography */
+
+#bioHeading {
+    margin: 0px 200px auto 200px;
+}
+
+.bioInfo {
+    display: block;
+    margin: 20px;
+    margin-left: 200px;
+    margin: 20px 250px 20px 250px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.bioInfo>p {
+    font-style: normal;
+    font-weight: bold;
+    border-bottom: 2px dashed #71f88f;
+}
+
+/* Art Gallery */
+table {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+table>caption {
+    border-bottom: 2px solid whitesmoke;
+    height: 30px;
+    padding-top: 5px;
+    margin: 10px 25% 5px;
+    color: #5da66a;
+}
+
+th {
+    height: 30px;
+}
 
 td {
     text-align: center;
+    width: 25%;
 }
 
-table{
-	border-collapse:collapse;
+td>p {
+    padding-bottom: 5px;
+    border-bottom: 1px dashed green;
+    border-radius: 15%;
+    margin: 16px 35%;
 }
 
 td>img {
-    width: 10%;
-    height: 10%;
+    width: 60%;
+    height: auto;
+    border-bottom: 1px dotted green;
+    padding: 10px;
+}
+
+td:hover img {
+    border: none;
+    transform: scale(1.25);
+}
+
+/* Other Information */
+#interests {
+    margin: 0px;
+}
+
+.JInterests {
+    display: block;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-style: italic;
+}
+
+.InterestSubHead {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+ol li {
+    list-style: upper-roman;
+}
+
+ul li {
+    list-style: square;
+}
+
+.JInterests>a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+#Youtube, #AmongUs:link {
+    color: #71f88f;
+    padding: 10px;
+}
+
+#Youtube:hover {
+    color: red;
+    border-right: 5px solid;
+    border-left: 5px solid;
+    border-color: whitesmoke;
+}
+
+#Youtube:visited {
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#AmongUs:hover {
+    color: grey;
+    border-right: 5px solid;
+    border-left: 5px solid;
+    border-color: whitesmoke;
+}
+
+#AmongUs:visited {
+    color: blueviolet;
+    text-decoration: underline;
 }
