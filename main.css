@@ -191,7 +191,10 @@ ul li {
 }
 
 ol, ul {
+	display: block;
     text-align: center;
+	margin-left: 41%;
+	margin-right: 41%;
 }
 
 .JInterests>a {
