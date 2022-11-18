@@ -108,6 +108,7 @@ body, footer {
 	margin-left: auto;
 	width: 17%;
 	height: 17%;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #F88379;
 }
 
 .bioInfo{
