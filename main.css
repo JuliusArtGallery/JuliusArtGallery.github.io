@@ -82,7 +82,7 @@ footer>img {
     height: 50%;
     width: 50%;
     border: 30px;
-    border-color: rgb(85, 25, 181);
+    border-color: rgb(240, 169, 38);
     border-style: dashed;
     border-width: 10px;
 }
@@ -91,19 +91,23 @@ footer>img {
     margin: 20px;
 }
 
-
-
 /* Biography */
-
 #bioHeading {
     margin: 0px 200px auto 200px;
+    padding-top: 15px;
+}
+
+#bioImg {
+    width: 20%;
+    height: auto;
+    border: 3px double azure;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #90bade;
+    margin-top: 10px;
 }
 
 .bioInfo {
     display: block;
-    margin: 20px;
-    margin-left: 200px;
-    margin: 20px 250px 20px 250px;
+    margin: 0px 250px 20px 250px;
     padding: 10px;
     font-style: italic;
 }
