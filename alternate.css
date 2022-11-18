@@ -102,6 +102,14 @@ body, footer {
 	color: #8B4000;
 }
 
+#bioHeading{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: 50%;
+}
+
 .bioInfo{
 	text-align: center;
 	font-family: "Garamond";
