@@ -29,7 +29,7 @@ nav{
 	text-decoration: underline;
 }
 
-body+h1{
+h1{
 	color: #8B4000;
 	text-shadow: 4px 4px 10px #F88379;
 }
